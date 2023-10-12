@@ -1,0 +1,107 @@
+
+  
+
+.divlogo{
+    background-color:red ;
+    position: absolute;
+    top: 0;
+    border-radius: 10px;
+    margin: 0 -500%;
+    padding: 0 500%;
+    max-block-size: 100%;
+}
+
+.divtitle2{
+    background-color:rgb(255, 230, 0) ;
+    position: absolute;
+    top:    8vh;
+    height: 35vh;
+    border-radius: 10px;
+    margin: 0 -500%;
+    padding: 0 500%;
+    
+}
+
+.divtitle3{
+    background-color: orange;
+    position: absolute;
+    top: 36vh;
+    height: 35vh;
+    border-radius: 10px;
+    margin: 0 -500%;
+    padding: 0 500%;
+    
+}
+
+.divtitle4{
+    background-color: green;
+    position: absolute;
+    top: 66vh;
+    height: 35vh;
+    border-radius: 10px;
+    margin: 0 -500%;
+    padding: 0 500% ;
+    overflow: hidden;
+}
+
+div{
+    overflow: hidden;
+}
+
+
+body{
+    overflow: hidden;
+
+
+}
+
+
+
+@media (max-width: 1300px) {
+    .divlogo{
+        background-color: rgb(255, 0, 119);
+        text-align: center;
+    } .divtitle2{
+        background-color: rgb(255, 0, 0);
+        
+
+    }
+     .divtitle3{
+        background-color: rgb(96, 0, 252);
+        
+
+
+     }
+
+     .divtitle4 {
+        background-color: rgb(0, 0, 255);
+        
+        
+    }
+}
+ 
+
+
+@media (max-width: 560px) {
+    .divlogo{
+        background-color: rgb(76, 0, 255);
+    } .divtitle2{
+        background-color: aqua;
+        text-align: center;
+
+    }
+     .divtitle3{
+        background-color: purple;
+        text-align: center;
+
+
+     }
+
+     .divtitle4 {
+        background-color: rgb(20, 20, 73);
+        text-align: center;
+        
+    }
+}
+
+
